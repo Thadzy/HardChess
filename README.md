@@ -62,7 +62,7 @@ HardChess/
 
 - C++ Compiler ที่รองรับ C++11 หขึ้นไป (g++, clang++)
 - Make utility
-- ระบบปฏิบัติการ Linux, macOS หรือ Windows (with MinGW)
+- ระบบปฏิบัติการ macOS 
 
 ### วิธีการคอมไพล์และรัน
 

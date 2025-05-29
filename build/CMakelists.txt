@@ -1,0 +1,47 @@
+# Compiler and flags
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall -Wextra -Iinclude
+LDFLAGS =
+
+# Directories
+SRCDIR = src
+COREDIR = $(SRCDIR)/Core
+POWERUPSDIR = $(SRCDIR)/PowerUps
+UIDIR = $(SRCDIR)/UI
+
+# Target executable
+TARGET = PowerChess
+
+# Phony targets
+.PHONY: all clean run
+
+# Default target
+all: $(TARGET)
+
+# Rule to build the target executable
+$(TARGET):
+	$(CXX) $(CXXFLAGS) \
+    $(SRCDIR)/main.cpp \
+    $(COREDIR)/Piece.cpp \
+    $(COREDIR)/Pawn.cpp \
+    $(COREDIR)/Rook.cpp \
+    $(COREDIR)/Knight.cpp \
+    $(COREDIR)/Bishop.cpp \
+    $(COREDIR)/Queen.cpp \
+    $(COREDIR)/King.cpp \
+    $(COREDIR)/Board.cpp \
+    $(COREDIR)/Player.cpp \
+    $(COREDIR)/Game.cpp \
+    $(POWERUPSDIR)/PowerUp.cpp \
+    $(POWERUPSDIR)/KnightBoostPowerUp.cpp \
+    $(UIDIR)/ConsoleUI.cpp \
+    -o $(TARGET) $(LDFLAGS)
+
+# Rule to clean built files
+clean:
+	rm -f $(TARGET)
+
+# Rule to run the game
+run: $(TARGET)
+	./$(TARGET)
+

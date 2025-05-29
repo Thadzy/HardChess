@@ -304,11 +304,10 @@ Player1, enter your move (e.g., e2e4 or a7a8q for promotion, or type 'exit' to q
 - รองรับการเล่น 2 คนบนเครื่องเดียวกัน
 - ไม่มีระบบ AI (ยัง)
 - ไม่รองรับ Castling และ En Passant (ยัง)
+- ยังไม่สามารถ Cross Platform ได้ Linux, Window
 
 ## Known Issues
 
 - ยังไม่รองรับ Special Moves (Castling, En Passant)
-- การแสดงผลอาจมีปัญหาบน Terminal บางตัว
-- ยังไม่มีสามารถ Cross Platform ได้ (Mac Only)
 
 >> Chess is hard make it harder

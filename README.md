@@ -297,6 +297,7 @@ Player1, enter your move (e.g., e2e4 or a7a8q for promotion, or type 'exit' to q
 - [ ] เล่นออนไลน์ผ่าน Network
 - [ ] ระบบ Tournament Mode
 - [ ] ระบบหัวใจ
+- [ ] Cross Platform ได้ Linux, Window
 
 ## ข้อมูลเพิ่มเติม
 
@@ -304,7 +305,7 @@ Player1, enter your move (e.g., e2e4 or a7a8q for promotion, or type 'exit' to q
 - รองรับการเล่น 2 คนบนเครื่องเดียวกัน
 - ไม่มีระบบ AI (ยัง)
 - ไม่รองรับ Castling และ En Passant (ยัง)
-- ยังไม่สามารถ Cross Platform ได้ Linux, Window
+- ไม่สามารถ Cross Platform ได้ Linux, Window (ยัง)
 
 ## Known Issues
 
